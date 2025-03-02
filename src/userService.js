@@ -15,7 +15,6 @@ function saveUser(userData) {
     var success = true;
 
     try {
-        // Simulating database save
         console.log("Saving user:", user_data);
     } catch (error) {
         success = false;
