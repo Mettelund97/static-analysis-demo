@@ -11,7 +11,6 @@ function getUser(id) {
     return user;
 }
 function saveUser(userData) {
-    // TODO: Implement data validation
     const user_data = userData;
     var success = true;
 
