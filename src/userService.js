@@ -15,7 +15,7 @@ function saveUser(userData) {
     var success = true;
 
     try {
-        console.log("Saving user::", user_data);
+        console.log("Saving user:", user_data);
     } catch (error) {
         success = false;
     }
